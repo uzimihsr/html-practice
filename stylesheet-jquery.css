@@ -10,17 +10,44 @@ body {
   color: white;
   background-color: slategray;
   width: 100%;
-  display: flex;
+  /* display: flex; */
 }
 
-.header-container p {
-  padding: 5px;
-}
-
-.header-container img {
+#icon {
   margin: 10px;
   height: 40px;
+  float: left;
 }
+
+#title {
+  padding: 5px;
+  float: left;
+}
+
+.menu {
+  padding: 5px;
+  margin-right: 10px;
+  float: right;
+  cursor: pointer;
+}
+
+.header-bottom {
+  clear: both;
+}
+
+.header-bottom p {
+  margin-top: 0;
+}
+
+
+#menu-contents {
+  /* position: fixed; */
+  /* background-color: slategray; */
+  /* color: white; */
+  /* right: 0;
+  top: 30; */
+}
+
 
 .main {
   margin-top: 70px;
@@ -53,6 +80,7 @@ body {
 .sotochan-image img {
   max-width: 50%;
   height: auto;
+  display: none;
 }
 
 /* スマホ対応 */

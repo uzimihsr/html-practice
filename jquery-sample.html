@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Practice Page3</title>
-    <link rel="stylesheet" href="stylesheet.css">
-  </head>
-  <body>
-    <header>
-      <div class="title">
-        <p>ページ3</p>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML+CSS+jQuery</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="stylesheet-jquery.css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <header>
+    <div class="header-container">
+      <div class="header-top">
+        <img id="icon" src="images/sotochan.jpg" alt="そとちゃんの画像">
+        <p id="title">HTML+CSS+jQuery</p>
+        <div id=menu-button>
+          <p class="menu">Menu</p>
+        </div>
       </div>
-    </header>
-    <div class="main">
-      <div class="link">
-        <a href="index.html">戻る</a>
+      <div class="header-bottom" id="menu-contents">
+        <p>メニュー1</p>
+        <p>メニュー2</p>
+        <p>メニュー3</p>
+        <p>メニュー4</p>
       </div>
     </div>
-    <footer>
-    </footer>
-  </body>
+
+
+  </header>
+  <div class="main">
+    <div class="headings">
+      <h1>そとちゃんかわいい</h1>
+    </div>
+    <div class="sotochan-image">
+      <img src="images/sotochan.jpg" alt="そとちゃんの画像">
+      <p>そとちゃん</p>
+    </div>
+    <div class="sotochan-list">
+      <p>そとちゃんの好きなもの</p>
+      <ul>
+        <li>羽根つきのおもちゃ</li>
+        <li>にぼしのおやつ</li>
+        <li>またたび</li>
+      </ul>
+    </div>
+    <div class="form-sample">
+      <form class="" action="jquery-sample.html" method="get">
+        <p>なまえ</p>
+        <input type="text" name="userName" value="そとちゃん" class="userName">
+        <p>コメント</p>
+        <textarea name="name" rows="4">そとちゃんかわいい</textarea>
+        <br>
+        <input type="submit" name="" value="押しても無駄" class="button">
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <a href="index.html" class="btn">戻る</a>
+      <p>フッターフッターフッター</p>
+    </div>
+  </footer>
+</body>
+
 </html>
