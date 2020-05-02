@@ -65,8 +65,8 @@ body {
 
 .sotochan-image img {
   max-width: 100%;
-  width: auto;
-  height: auto;
+  /* width: auto;
+  height: auto; */
 }
 
 .sotochan-list {
