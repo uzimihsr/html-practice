@@ -35,6 +35,13 @@ body {
   background-color: linen;
 }
 
+/* スマホ対応 */
+@media(max-width: 1000px) {
+  .headings{
+    text-align: center;
+  }
+}
+
 .headings h1 {
   color: darkblue;
 }
@@ -58,10 +65,6 @@ body {
 .headings h6 {
   color: indigo;
 }
-
-/* .sotochan-image {
-  display: flex;
-} */
 
 .sotochan-image img {
   max-width: 100%;
