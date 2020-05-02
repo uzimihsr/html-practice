@@ -59,13 +59,13 @@ body {
   color: indigo;
 }
 
-.sotochan-image {
+/* .sotochan-image {
   display: flex;
-}
+} */
 
 .sotochan-image img {
-  /* max-width: 100%;
-  height: auto; */
+  max-width: 100%;
+  height: auto;
   /* width: auto;
   height: auto; */
 }
