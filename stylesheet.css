@@ -4,25 +4,21 @@ body {
 }
 
 .header-container {
+  position: fixed;
   top: 0;
   left: 0;
   color: white;
   background-color: slategray;
-  position: fixed;
   width: 100%;
   display: flex;
 }
 
 .header-container p {
-  line-height: 40px;
-  margin-left: 1px;
-  margin-right: 10px;
-  /* vertical-align: middle; */
-  /* border: 1px solid black; */
+  padding: 5px;
 }
 
 .header-container img {
-  margin: 16px;
+  margin: 10px;
   height: 40px;
 }
 
@@ -87,5 +83,29 @@ body {
   background-color: aliceblue;
 }
 
-footer{
+.footer-container{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: slategray;
+  color: white;
+  display: flex;
+}
+
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  color: white;
+  background-color: limegreen;
+  border-radius: 4px;
+  /* opacity: 1; */
+}
+
+.btn:hover {
+  background-color: orange;
+}
+
+.footer-container p {
+  padding: 5px;
 }
