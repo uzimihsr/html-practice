@@ -5,8 +5,11 @@ $(function(){
 
   $("#menu-contents").hide();
 
-  $("#menu-button").click(function() {
-    $("#menu-contents").slideToggle();
+  $('#menu-button').click(function() {
+    $('#menu-button').toggleClass("open");
+    $('#menu-contents').slideToggle();
+    $('.menu').text("menu")
+    $('.open').text("close")
   });
 
 });
