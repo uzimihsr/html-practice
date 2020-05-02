@@ -89,6 +89,14 @@ body {
   background-color: aliceblue;
 }
 
+.form-sample input.userName {
+  width: 100%;
+}
+
+.form-sample textarea {
+  width: 100%;
+}
+
 .footer-container{
   position: absolute;
   left: 0;
